@@ -1,12 +1,10 @@
 import cv2
 
-
 img = cv2.imread('ornek.jpg')
-
 
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-surf = cv2.xfeatures2d.SURF_create()
+surf = cv2.SURF_create()
 
 keypoints, descriptors = surf.detectAndCompute(img, None)
 
