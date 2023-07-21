@@ -1,7 +1,7 @@
 import cv2
 
 # Görüntüyü gri tona dönüştür
-image = cv2.imread('ornek.png')
+image = cv2.imread('data/ornek.png')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # SIFT nesnesi oluştur ve görüntüdeki özellikleri bul

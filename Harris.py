@@ -1,7 +1,7 @@
 import cv2
 
 # Görüntüyü yükle
-img = cv2.imread('ornek.jpg')
+img = cv2.imread('data/ornek.jpg')
 
 # Görüntüyü gri tona dönüştür
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('ornek.jpg')
+img = cv2.imread('data/ornek.jpg')
 
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 

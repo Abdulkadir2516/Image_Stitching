@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Görüntüyü yükle
-img = cv2.imread('ornek.jpg', 0)
+img = cv2.imread('data/ornek.jpg', 0)
 
 # Gauss filtrelerini ayarla
 sigma1 = 1

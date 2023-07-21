@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('ornek.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('data/ornek.png', cv2.IMREAD_GRAYSCALE)
 
 orb = cv2.ORB_create()
 
